@@ -7,7 +7,7 @@
 
 This repository contains the code and research for the MSc thesis **"Pair Trading Using ESABO Co-Movement Analysis"**. 
 
-The project adapts a novel algorithm from computational biology—**ESABO (Entropy Shifts of Abundance Vectors under Boolean Operations)**—to financial markets. Originally designed to detect microbial interactions, this method is modified here to identify non-linear co-movement patterns in S&P 500 stocks. 
+The project adapts a novel algorithm from computational biology **ESABO (Entropy Shifts of Abundance Vectors under Boolean Operations)** to financial markets. Originally designed to detect microbial interactions, this method is modified here to identify non-linear co-movement patterns in S&P 500 stocks. Base paper: Claussen JC, Skiecevičienė J, Wang J, Rausch P, Karlsen TH, et al. (2017) Boolean analysis reveals systematic interactions among low-abundance species in the human gut microbiome. PLOS Computational Biology 13(6): e1005361. https://doi.org/10.1371/journal.pcbi.1005361
 
 Unlike traditional cointegration methods (Engle-Granger, Johansen) that rely on linear equilibrium, ESABO uses **information theory (Shannon Entropy)** and **Boolean logic** to detect synergistic behavior in binarized price series.
 
